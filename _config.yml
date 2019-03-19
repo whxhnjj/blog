@@ -1,0 +1,270 @@
+# ---------------------------------------------------------------
+#   Site Information And Theme Configuration Settings
+#   language: zh-CN
+# ---------------------------------------------------------------
+
+## menu
+menu:
+- page: home
+  url: /
+  icon:
+- page: 后端
+  url: /categories/Java/
+  icon: 
+- page: 分布式
+  url: https://www.baidu.com
+  icon:
+- page: 数据库
+  url: https://www.baidu.com
+  icon:
+- page: 前端
+  url: /categories/JavaScript/
+  icon:
+- page: 运维
+  url: /categories/Linux
+  icon:
+- page: 时间轴
+  url: /archives/
+  icon:
+- page: 自媒体
+  url: http://i.youku.com/yeamin?spm=a2hzp.8244740.0.0
+  icon:
+- page: 杂谈
+  url: https://www.baidu.com
+  icon:
+- page: 关于
+  url: /about
+  icon: /favicon.ico
+
+
+## favicon
+favicon: /favicon.ico
+
+## Feed
+rss: /atom.xml
+
+## Carousel
+carousel:
+  img: './img/head-img.jpg'
+  url: 'javascript:'
+
+# 各个小工具的设置
+
+## widgets
+widgets:
+  - search
+  - notification
+  - social
+  - category
+  - archive
+  - tagcloud
+  - friends
+
+## 搜索
+jsonContent:
+  searchLocal: true
+  searchGoogle: false
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: false
+    tags: false
+
+## 网站公告设置
+notification: |-
+            <p>
+                主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
+                主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br/>
+                支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
+            </p>
+
+## 社交设置
+social:
+ - name: Github
+   icon: git
+   href: https://github.com/ltyeamin
+ - name: 邮箱
+   icon: envelope-o
+   href: mailto:ltyeamin@gmail.com
+ - name: 联系QQ
+   icon: qq
+   href: tencent://message/?uin=1301015490&Site=&Menu=yes
+ - name: 微信
+   icon: weixin
+   href: /about/myweixin.jpg
+ - name: RSS
+   icon: feed
+   href: /atom.xml
+
+## 文章分类设置
+cate_config:
+   show_count: true
+   show_current: true
+
+## 文章归档设置
+arch_config:
+   type: 'monthly'
+   format: 'YYYY年MM月'
+   show_count: true
+   order: -1
+
+## 标签云设置
+tagcloud:
+  tag3d: true
+  textColour: '#FFA500'
+  outlineMethod: 'block'
+  outlineColour: '  #FDF5E6'
+  interval: 30
+  freezeActive: true
+  frontSelect: true
+  reverse: true
+  wheelZoom: true
+
+## 友链设置
+links:
+  - Hexo官网: https://hexo.io/zh-cn/
+
+
+# 主题自定义个性化配置
+
+## 网站宣传语
+branding:
+
+## 设置banner背景图片
+banner:
+    img: http://snippet.shenliyang.com/img/banner.jpg
+
+## 首页列表底部面板
+homePanel: true
+
+## 缩略图自定义随机图片
+defaultImgs:
+  - http://lorempixel.com/538/300/
+
+## 截取文章首页描述字数
+excerptLength: 150
+
+## 是否开启文章目录
+toc: true
+
+## 代码高亮配置
+highlightTheme: default
+
+## bootstrap配置
+bootstrap:
+
+## ICON配置
+fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+## 文章过期提醒功能
+warning:
+  days: 300
+  text: '本文于%d天之前发表，文中内容可能已经过时'
+
+## 文章内声明
+declaration:
+  enable: true
+  title: '转载声明'
+  tip: |-
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">彤哥哥</a>
+
+## 文章打赏
+reward:
+  alipay: '/about/alipay.png'
+  wepay: '/about/weixin.png'
+  tip: 请作者喝杯咖啡吧
+
+## 主题评论
+
+## Valine评论
+valine:
+   enable: true
+   appId: wA3iNQOiAuhrRJkNgIjirA8f-gzGzoHsz
+   appKey: iGL0JyEnJQ8HIMlLd4Sm0oOp
+   placeholder: 说点什么吧
+   notify: false
+   verify: false
+   avatar: mm
+   meta: nick,mail,link
+   pageSize: 10
+  
+### 畅言评论(需要ICP备案)
+changyan:
+  enable: false
+  appid:
+  conf:
+
+### 来必力
+livere:
+  enable: false
+  livere_uid: MTAyMC8zMzA1MS85NjEz
+
+## Gitalk评论
+gitalk:
+   enable: false
+   clientID: 
+   clientSecret: 
+   repo: 
+   owner: 
+   admin: 
+   perPage:
+   id:
+
+### Disqus评论
+disqus:
+  enable: false
+  shortname: 彤哥哥
+  count: false
+
+### gitment评论(长期不更新，不建议使用)
+gitment:
+  enable: false
+  owner:
+  repo:
+  client_id:
+  client_secret:
+  perPage: 10
+
+### 友言评论(服务不稳定)
+uyan:
+  enable: false
+  uyan_id: 1966422
+
+
+## 网站访客统计
+visit_counter:
+   site: true
+   page: true
+
+## 网站访问统计分析
+
+### 网盟CNZZ统计 1276467744
+cnzz_analytics: 
+
+### 百度统计
+baidu_analytics: ebfd000c0e7cc1ee84a00f01d419b1e2
+
+### 谷歌统计
+google_analytics:
+
+### 腾讯分析
+tencent_analytics:
+
+### 百度站点认证
+baidu_site_verification:
+
+### 百度自动推送
+baidu_push: false
+
+### Online contact,DaoVoice
+daovoice: true
+daovoice_app_id: 10b503a1
+
+aplayer:
+  meting: true
+
+#网站主题配置
+since: 2019
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
+version: 1.2.1
